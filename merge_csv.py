@@ -32,7 +32,7 @@ def read_csv_with_encoding(file_path):
 
 
 # 指定包含CSV文件的文件夹路径
-folder_path = r'C:\Users\afkxw\Desktop\IIIF案例\技术栈收集'
+folder_path = r'C:\Users\xxx\Desktop\'
 
 # 获取文件夹中所有的CSV文件
 csv_files = [f for f in os.listdir(folder_path) if f.endswith('.csv')]
